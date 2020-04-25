@@ -1,0 +1,117 @@
+*{padding:0;
+    margin:0;}
+
+body{background-color:#3FD2C7;}
+
+
+nav{width:100%;
+    height:60px;
+    background-color:white;}
+
+#logo{height:60px;
+    float: left;
+    padding:0px 20px; }
+        
+nav ul{float:left;}
+
+nav ul li{float:left;
+        list-style:none;
+        position: relative;}
+
+
+
+
+nav ul li a{color:#333333;
+            display: block;
+            padding:16px 20px;
+            font-family:"Times",sans-serif;
+            font-size:24px;
+            text-decoration:none;}
+
+nav ul li ul{color:#333333;
+            display:none;
+            position: absolute;
+            background-color:white;
+            border-radius:0px 0px 4px 4px}
+
+nav ul li:hover ul {
+            display: block;
+}
+
+nav ul li ul li a{
+    padding:14px 20px;}
+
+nav ul li ul li a{
+    padding:14px 20px;}
+
+nav ul li ul li a:hover{
+    background-color:#cccccc}
+
+nav ul li ul li{
+            border-radius:4px;}
+
+#mainpar{background-color:white;
+        width:500px;
+        margin-left:100px;
+        margin-top:150px;
+        padding:20px;
+        border-radius:4px 4px 4px 4px;
+        }
+
+
+#details{font-size:25px;
+        color:#333333; }/*changes colour and size font size*/
+
+form{background-color:white;
+        border-radius:4px 4px 4px 4px;
+        position: relative;
+        top:200px;
+        }
+
+
+.questionform{
+    max-width:500px;
+    margin:32px auto;
+    border:2px solid #0099cc;
+    padding:16px;
+    font-size:20px;
+}
+#titlesur{padding-top:10px;
+        }
+
+#survey{padding-top:10px;}
+
+label{
+    display: block;
+}
+
+input, textarea{display: block;
+                width:100%;}/*changes size of the text area*/
+
+
+#submit{border:0;
+        background-color: #999999;
+        padding:3.2px;
+        color:white;
+    margin:16px;
+    cursor:pointer;/*Changes the cursor to a pointer */
+    }
+
+#submit:hover{
+        background-color:#3FD2C7;/*changes colour while hoovering over submit button*/
+        
+    }
+
+footer{text-align: center;
+        left:50%;}
+
+.date{text-align: center;
+     color:#333333;
+    font-size:15px}
+
+.cdm{width:80px;}
+
+.cont{height:900px;}
+
+
+
