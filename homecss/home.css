@@ -1,0 +1,96 @@
+*{padding:0;/*remove default margins and padding */
+    margin:0;}
+
+body{background-color:#3FD2C7;}/*each web page either has the main web page colour(cyan)or the socail media colour*/
+
+
+nav{width:100%;
+    height:60px;
+    background-color:white;}/*keeps navigation white and has the correct width*/
+
+#logo{height:60px;
+    float: left;
+    padding:0px 20px; }/*controls the custom logo and keeps it the rigth size*/
+        
+nav ul{float:left;}/*keeps the navigation on the left*/
+
+nav ul li{float:left;
+        list-style:none;
+        position: relative;}/*keeps the navigation i nthe correct order*/
+
+
+
+
+nav ul li a{color:#333333;
+            display: block;
+            padding:16px 20px;
+            font-family:"Times",sans-serif;
+            font-size:24px;
+            text-decoration:none;}/*controls the font of the navbar and the links*/
+
+nav ul li ul{color:#333333;
+            display:none;
+            position: absolute;
+            background-color:white;
+            border-radius:0px 0px 4px 4px}/*controls the dropdown menu font colour and background*/
+
+nav ul li:hover ul {
+            display: block;/*makes sure the dropdown menu dropsdown*/
+}
+
+nav ul li ul li a{
+    padding:14px 20px;}
+
+nav ul li ul li a{
+    padding:14px 20px;}
+
+nav ul li ul li a:hover{
+    background-color:#cccccc}/*changes the background colour to light grey when hovered over*/
+
+nav ul li ul li{
+            border-radius:4px;}/*rounds the corners of the dropdown*/
+
+#mainpar{background-color:white;
+        width:500px;
+        margin-left:100px;
+        margin-top:150px;
+        padding:20px;
+        border-radius:4px 4px 4px 4px;
+        }/*controls the welcome paragraph*/
+
+#mainpar1{font-size:50px;
+        color:#1a1a1a;}
+
+
+#mainpar2{display: block;
+        text-align: left;
+        font-size:25px;}
+
+
+
+.logos{height:100px;
+        width:100px;
+        margin:20px;}/*controsl the size of the socail media logos*/
+
+#mediaimg1{ position: relative;
+            left:1200px;
+            bottom:400px;
+            background-color:white;
+            width:430px;
+            border-radius:4px 4px 0px 0px;}/*controsl the div that the images are contained in*/
+
+#mediaimg2{ position: relative;
+            left:1200px;
+            bottom:400px;
+            background-color:white;
+            width:380px;
+            padding-left:50px;
+            border-radius:0px 0px 4px 4px;}/*controsl the div that the images are contained in*/
+
+footer{text-align: center;}/*controls the footer*/
+
+.date{text-align: center;
+    color:#333333;
+    font-size:15px}/*controls the date size nad colour*/
+
+.cdm{width:80px;}/*controls the tudublin logo size*/
